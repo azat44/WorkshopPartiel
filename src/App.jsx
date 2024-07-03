@@ -1,17 +1,15 @@
-import { useState } from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Header from "./components/header/Header";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1>ImpactPlay 2</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-      </div>
-    </>
+    <BrowserRouter>
+    <Header/>
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
