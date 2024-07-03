@@ -1,24 +1,24 @@
 @font-face {
   font-family: "CreataLight";
-  src: url('./fonts/Creata\ Light.otf') format('opentype');
+  src: url('../src/fonts/Creatalight.otf') format('opentype');
   font-weight: normal;
   font-style: normal; 
 }
 @font-face {
   font-family: "CreataMedium";
-  src: url('./fonts/Creata\ Medium.otf') format('opentype');
+  src: url('../src/fonts/Creatamedium.otf') format('opentype');
   font-weight: normal;
   font-style: normal; 
 }
 @font-face {
   font-family: "CreataMediumItalic";
-  src: url('./fonts/Creata\ Medium\ Italic.otf') format('opentype');
+  src: url('../src/fonts/Creatamediumitalic.otf') format('opentype');
   font-weight: normal;
   font-style: normal; 
 }
 @font-face {
   font-family: "CreataRegular";
-  src: url('./fonts/Creata\ Regular.otf') format('opentype');
+  src: url('../src/fonts/Creataregular.otf') format('opentype');
   font-weight: normal;
   font-style: normal; 
 }
@@ -37,8 +37,14 @@ body, html {
   height: 100%;
   margin: 0;
   padding: 0;
+  font-family: var(--medium);
 }
 * {
   padding: 0;
   margin: 0;
+  
+}
+section {
+  margin: auto;
+  max-width: 1200px;
 }
