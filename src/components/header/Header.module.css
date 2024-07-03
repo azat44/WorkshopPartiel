@@ -1,3 +1,11 @@
+@keyframes fadeIn {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
 header.header {
     height: 10vh;
     width: 100%;
@@ -41,6 +49,20 @@ div.divCenter {
     font-family: var(--medium);
     font-size: 24px;
 }
+div.divCenter a {
+    position: relative;
+}
+div.divCenter a:hover:after {
+    position: absolute;
+    animation: fadeIn 0.5s ease-in-out;
+    content: "";
+    bottom: 2px;
+    left: 0;
+    background-color: var(--orange);
+    height: 4px;
+    border-radius: 8px;
+    width: 100%;
+}
 div.divRight {
     display: flex;
     align-items: center;
@@ -68,4 +90,8 @@ input.input {
 }
 input.input:focus {
     border: 1px solid var(--orange);
+    background-color: transparent;
+}
+svg {
+    cursor: pointer;
 }
