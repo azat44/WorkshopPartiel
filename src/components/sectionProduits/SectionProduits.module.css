@@ -1,0 +1,29 @@
+.section {
+    margin-top: 40px;
+    position: relative;
+}
+.nom {
+    font-family: 'CreataMedium';
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.image {
+    width: 100%;
+}
+.button {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    background-color: #000;
+    color: #fff;
+    padding: 8px 24px;
+    min-width: 120px;
+    border: 0;
+    border-radius: 16px;
+    font-family: var(--medium);
+    font-size: 20px;
+    cursor: pointer;
+}
+.button:hover {
+    background-color: #343434 !important;
+}

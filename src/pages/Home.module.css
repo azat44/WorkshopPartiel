@@ -1,0 +1,60 @@
+section.section {
+    width: 100% !important;
+    max-width: unset;
+    margin: unset !important;
+    margin-top: 10vh;
+}
+div.hero {
+    margin-top: 10vh;
+    display: flex;
+    gap: 5px;
+    overflow: hidden;
+}
+img.wembyHero {
+    width: 25%;
+    object-fit: cover;
+}
+section.sectionNikeXWemby {
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.sectionNikeXWemby div.topNikeXWemby {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+section.sectionNikeXWemby div.topNikeXWemby h1 {
+    font-family: var(--medium-italic);
+    font-size: 64px;
+    text-align: center;
+}
+section.sectionNikeXWemby div.topNikeXWemby p {
+    margin-top: -15px;
+    text-align: center;
+    font-family: var(--thin);
+    font-size: 24px;
+}
+.sliderContainer {
+    position: relative;
+}
+.sectionModele {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.sectionModele h2 {
+    font-family: 'CreataMedium';
+    text-transform: uppercase;
+    font-size: 24px;
+}
+.sectionModele .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}

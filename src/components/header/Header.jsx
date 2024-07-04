@@ -6,7 +6,7 @@ const Header = () => {
             <nav className={styles.nav}>
                 <ul className={styles.ul}>
                     <div className={styles.divLeft}>
-                        <li className={styles.li}><a className={styles.a} href='/'><img src="/public/logo.svg"/></a></li>
+                        <li className={styles.li}><a className={styles.a} href='/'><img src="/logo.svg"/></a></li>
                     </div>
                     <div className={styles.divCenter}>
                         <li className={styles.li}><a className={styles.a} href='/produits'>Produits</a></li>

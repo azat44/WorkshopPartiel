@@ -5,6 +5,12 @@
   font-style: normal; 
 }
 @font-face {
+  font-family: "CreataThin";
+  src: url('../src/fonts/Creatathin.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal; 
+}
+@font-face {
   font-family: "CreataMedium";
   src: url('../src/fonts/Creatamedium.otf') format('opentype');
   font-weight: normal;
@@ -28,6 +34,7 @@
   --bleu : #171E37;
   --blanc : ##F4F6FC;
   --light : 'CreataLight', sans-serif;
+  --thin : 'CreataThin', sans-serif;
   --medium : 'CreataMedium', sans-serif;
   --medium-italic : 'CreataMediumItalic', sans-serif;
   --regular : 'CreataRegular', sans-serif;
@@ -47,4 +54,7 @@ body, html {
 section {
   margin: auto;
   max-width: 1200px;
+}
+a {
+  cursor: pointer;
 }
