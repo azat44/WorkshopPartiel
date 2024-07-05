@@ -105,13 +105,13 @@ function ProductPage() {
         </aside>
         <div className={styles.productList}>
           {sortedProducts.map(product => (
-            <div key={product.id} className={styles.productCard}>
+            <a href='/produit' key={product.id} className={styles.productCard}>
               <img className={styles.productImage}src={product.image} alt={product.name} />
               <h3>{product.name}</h3>
               <p>{product.description}</p>
               <p>{product.colors}</p>
               <p className={styles.price}>{product.price} €</p>
-            </div>
+            </a>
           ))}
         </div>
       </div>
